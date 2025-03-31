@@ -1,9 +1,8 @@
 @import url('./global.css');
 
-/*----------------------------HEADER------------------------*/
+/* ------------ HEADER ------------ */
 
 header{
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,11 +21,10 @@ header{
 
 .nav-header ul a{
     text-decoration: none;
-    color: #18191f;
+    color: #18191F;
 }
 
 .active{
-
     font-weight: bold;
 }
 
@@ -37,11 +35,12 @@ header{
     cursor: pointer;
 }
 
-.btn-signUp{
+.btn-SignUp{
     color: var(--color-neutral-white);
     padding: 10px 20px;
     background-color: var(--color-primary);
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .btn-header{
@@ -51,14 +50,192 @@ header{
 
 
 
+/* ------------ FIM HEADER ------------ */
+
+/* ------------ MAIN ------------ */
+
+main{
+    display: flex;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    padding: 96px 0px;
+}
+
+.content-lessons{
+    width: 657px;
+}
+
+h1{
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+    font-weight: 600;
+}
+
+.content-lessons h1 span{
+    color: var(--color-primary);
+}
+
+.content-lessons p{
+    margin-top: 16px;    
+}
 
 
+/* ------------ FIM MAIN ------------ */
+
+/* ------------ OUR CLIENTS ------------ */
+
+.our-client{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-client p{
+    margin-top: 8px;
+}
+
+.logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;    
+    margin-top: 16px;
+}
+
+/* ------------ FIM OUR CLIENTS ------------ */
+
+/* ------------ MANAGE SYSTEM ------------ */
+
+.manage-system{    
+    text-align: center;
+    margin-top: 40px;    
+}
+
+.manage-system h2{
+    width: 542px;
+    margin: 0 auto;
+}
+
+#manage-system-subtitle{
+    margin-top: 8px;
+}
+
+.cards-container{
+    display: flex;
+    margin-top: 16px;
+    gap: 127.5px;
+    justify-content: center;
+}
+
+.cards-container article{
+    width: 299px; 
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 8px; 
+    transition: 0.5s;
+}
+
+.cards-container article:hover{
+    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+    transform: translateY(-8px);
+}
+
+.cards-container article img{
+    width: 65px;
+    height: 56px;
+}
+
+.cards-container article h3{
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.cards-container article p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
+
+/* ------------ Pixelgrade ------------ */
 
 
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    padding: 52px;
+    margin-top: 42px;
+}
+
+.pixelgrade-content{
+    width: 661px;
+}
+
+.pixelgrade-content h2{
+    width: 526px;
+}
+
+.pixelgrade-content p{
+    margin-top: 16px;
+
+}
+
+/* ------------ FIM Pixelgrade ------------ */
 
 
+/* ------------ Helping Local ------------ */
 
-/*------------------------------Fim HEADER---------------------*/
+.helping-local{
+    display: flex;
+    justify-content: center;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 72px;
+    padding: 64px 0px;
+}
+
+.helping-content h2{
+    width: 390px;
+}
+
+.helping-content h2 span{
+    color: var(--color-primary);
+}
+
+.helping-content p{
+    margin-top: 8px;
+    color: #18191F;
+}
+
+.helping-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;    
+}
+
+.helping-itens{
+    display: flex;
+    gap: 24px;
+}
+
+.helping-items img{
+    width: 48px;
+    gap: 16px;
+}
+
+.information-items{
+    text-align: start;
+}
 
 
-
+/* ------------ FIM Helping Local ------------ */
