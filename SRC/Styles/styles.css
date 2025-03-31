@@ -237,5 +237,19 @@ h1{
     text-align: start;
 }
 
+.design-wedid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px 0px;
+    gap: 49.47px;
+}
+
+.design-content h2{
+    width: 601px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
 
 /* ------------ FIM Helping Local ------------ */
